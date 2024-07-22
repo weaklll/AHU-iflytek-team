@@ -1,0 +1,3 @@
+<launch>
+    <node name="line_fellow" pkg="send_goals" type="visial_line_714.py" />
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find laser_lzhw)/launch/laser.launch"></include>
+    
+    <node pkg="send_goals" name="send10_on_node" type="send10_on_node" output="screen" />
+</launch>

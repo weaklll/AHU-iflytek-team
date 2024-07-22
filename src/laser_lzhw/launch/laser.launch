@@ -1,0 +1,4 @@
+<launch>
+    <!-- <node pkg="laser_lzhw" name="laser_node_6" type="laser_node_6" output="screen" /> -->
+    <node pkg="laser_lzhw" name="lwz_laser_node3" type="lwz_laser_node3" output="screen" /> 
+</launch>

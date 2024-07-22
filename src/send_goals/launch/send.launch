@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find laser_lzhw)/launch/laser.launch"></include>
+    
+    <!-- <node pkg="send_goals" name="send8_yusai_slam_node" type="send8_yusai_slam_node" output="screen" /> -->
+
+    <node pkg="send_goals" name="send8_yusai_node" type="send8_yusai_node" output="screen" />
+    
+</launch>
